@@ -249,60 +249,6 @@
                 </div>
             </section>
             <!-- /The True Emotions -->
-            <!-- Preorder -->
-            <section class="youplay-banner youplay-banner-parallax big mt-120">
-                <div class="image" data-speed="0.4">
-                    <img class="jarallax-img" src="assets/images/dark/game-bloodborne-1920x1151.jpg" alt="">
-                </div>
-                <div class="info container align-center">
-                    <div>
-                        <h2 class="fs-40 mt-45">Latest Youtube Content</h2>
-                        <br>
-                        <iframe class="latestVideoEmbed" vnum='0' cid="UCAmwh0HLg-1K3isUA02RYqw" width="426" height="240" frameborder="0" allowfullscreen></iframe>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
-function loadVideo(iframe) {
-  $.getJSON(reqURL + iframe.getAttribute('cid'),
-    function(data) {
-      var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-      console.log(videoNumber);
-      var link = data.items[videoNumber].link;
-      id = link.substr(link.indexOf("=") + 1);
-      iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&autoplay=1");
-    }
-  );
-}
-var iframes = document.getElementsByClassName('latestVideoEmbed');
-for (var i = 0, len = iframes.length; i < len; i++) {
-  loadVideo(iframes[i]);
-}
-</script>
-                        
-                        <iframe class="latestVideoEmbed" vnum='0' cid="UCnB8rIviGnWoMaa2VCitiYw" width="426" height="240" frameborder="0" allowfullscreen></iframe>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
-function loadVideo(iframe) {
-  $.getJSON(reqURL + iframe.getAttribute('cid'),
-    function(data) {
-      var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-      console.log(videoNumber);
-      var link = data.items[videoNumber].link;
-      id = link.substr(link.indexOf("=") + 1);
-      iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&autoplay=1");
-    }
-  );
-}
-var iframes = document.getElementsByClassName('latestVideoEmbed');
-for (var i = 0, len = iframes.length; i < len; i++) {
-  loadVideo(iframes[i]);
-}
-</script>
-                    </div>
-                </div>
-            </section>
-            <!-- /Preorder -->
             <!-- Footer -->
             <footer class="youplay-footer youplay-footer-parallax">
                 <div class="image" data-speed="0.4" data-img-position="50% 0%">
