@@ -4882,7 +4882,7 @@ textarea {
     min-height: 350px;
 }
 
-.youplay-banner.big {
+.youplay-banner.{
     min-height: 550px;
 }
 
@@ -4898,7 +4898,7 @@ textarea {
 .youplay-banner .info {
     position: relative;
     width: 100%;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 @media (max-width: 767px) {
