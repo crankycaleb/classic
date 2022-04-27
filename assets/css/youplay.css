@@ -4227,7 +4227,9 @@ textarea {
 
 .navbar-youplay {
     min-height: 50px;
-    background: rgba(8, 3, 37, 0.4);
+/*    background: rgba(8, 3, 37, 0.4);
+    */
+    background: #000000;
     border: none;
     -webkit-transition: .3s background ease;
     -o-transition: .3s background ease;
