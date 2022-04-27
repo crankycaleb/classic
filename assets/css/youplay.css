@@ -20,7 +20,7 @@
   [Color codes]
 
   Main:         #d92b4c (buttons/links hover)
-  Back:         #000000 (Content Background)
+  Back:         #080325 (Content Background)
   Back Images:  #59148c (back on images)
   Text:         #fff
   Muted Text:   rgba(255, 255, 255, 0.5)
@@ -110,7 +110,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     word-wrap: break-word;
-    background: #080325;
+    background: #000000;
     background: rgba(8, 3, 37, 0.9);
 }
 
