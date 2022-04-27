@@ -7449,8 +7449,10 @@ footer .copyright {
     position: relative;
     padding: 30px 10px;
     text-align: center;
-    background: #080325;
+ /*   background: #080325;
     background: rgba(8, 3, 37, 0.7);
+    */
+    background: #000000;
 }
 
 /*------------------------------------------------------------------
