@@ -4368,8 +4368,10 @@ textarea {
 .navbar-youplay .navbar-nav > li > .dropdown-menu,
 .navbar-youplay .dropdown-menu {
     display: table;
-    background: #080325;
+    background: #000000;
+/*    background: #080325;
     background: rgba(8, 3, 37, 0.8);
+    */
     border: none;
 }
 
@@ -4480,7 +4482,9 @@ textarea {
     pointer-events: none;
     border: solid transparent;
     border-width: 6px;
-    border-bottom-color: rgba(8, 3, 37, 0.8);
+/*    border-bottom-color: rgba(8, 3, 37, 0.8);
+    */
+    border-bottom-color: #000000;
 }
 
 .navbar-youplay .navbar-right > .dropdown > .dropdown-menu::after {
@@ -4491,8 +4495,10 @@ textarea {
 }
 
 .navbar-youplay.navbar-small {
-    background: #080325;
+/*    background: #080325;
     background: rgba(8, 3, 37, 0.94);
+    */
+    background: #000000;
 }
 
 .navbar-youplay.navbar-small .navbar-brand {
@@ -4572,13 +4578,17 @@ textarea {
     }
     .navbar-youplay .navbar-header {
         position: relative;
-        background: #080325;
+    /*    background: #080325;
         background: rgba(8, 3, 37, 0.4);
+        */
+        background: #000000;
         z-index: 1;
     }
     .navbar-youplay.navbar-small .navbar-header {
-        background: #080325;
+    /*    background: #080325;
         background: rgba(8, 3, 37, 0.94);
+        */
+        background: #000000;
     }
     .navbar-youplay .navbar-collapse {
         position: fixed;
@@ -4592,7 +4602,9 @@ textarea {
         padding-top: 95px;
         margin: 0;
         overflow-y: auto;
-        background: #080325;
+     /*   background: #080325;
+        */
+        background: #000000;
         border: none;
         -webkit-transition: .3s padding-top ease, .5s transform ease;
         -o-transition: .3s padding-top ease, .5s transform ease;
