@@ -1,323 +1,242 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tutorials | Tech | Gaming</title>
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@ClassicCalebTV">
-        <meta name="twitter:title" content="Tutorials | Tech | Gaming">
-        <meta name="twitter:description" content="I started making content to geek out with streaming technology and gaming. I continue because of the amazing people that come together!">
-        <meta name="twitter:image" content="https://raw.githubusercontent.com/crankycaleb/crankycaleb.github.io/main/assets/images/twitcardLRG.png">
-        <meta name="twitter:creator" content="@classiccalebtv">
-        <meta name="description" content="Tutorials | Tech | Gaming">
-        <meta name="keywords" content="gaming, game, community, template, html, bootstrap, webpack">
-        <meta name="author" content="ClassicCaleb">
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="icon" type="image/png" href="assets/images/dark/icon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- START: Styles -->
-        <!-- Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css" />
-        <!-- Flickity -->
-        <link rel="stylesheet" href="assets/vendor/flickity/dist/flickity.min.css" />
-        <!-- Magnific Popup -->
-        <link rel="stylesheet" href="assets/vendor/magnific-popup/dist/magnific-popup.css" />
-        <!-- Revolution Slider -->
-        <link rel="stylesheet" href="assets/vendor/slider-revolution/css/settings.css">
-        <link rel="stylesheet" href="assets/vendor/slider-revolution/css/layers.css">
-        <link rel="stylesheet" href="assets/vendor/slider-revolution/css/navigation.css">
-        <!-- Bootstrap Sweetalert -->
-        <link rel="stylesheet" href="assets/vendor/bootstrap-sweetalert/dist/sweetalert.css" />
-        <!-- Social Likes -->
-        <link rel="stylesheet" href="assets/vendor/social-likes/dist/social-likes_flat.css" />
-        <!-- FontAwesome -->
-        <link rel="stylesheet" href="/assets/css/all.css"> <!--load all styles -->
-        <!-- Youplay -->
-        <link rel="stylesheet" href="assets/css/youplay.css">
-        <!-- RTL (uncomment this to enable RTL support) -->
-        <!-- <link rel="stylesheet" href="assets/css/youplay-rtl.min.css" /> -->
-        <!-- Custom Styles -->
-        <link rel="stylesheet" href="assets/css/custom.css">
-        <!-- END: Styles -->
-        <!-- jQuery -->
-        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-    </head>
-    <body>
-        <!-- Preloader -->
-        <div class="page-preloader preloader-wrapp">
-            <img src="assets/images/logo-light.png" alt="">
-            <div class="preloader"></div>
-        </div>
-        <!-- /Preloader -->
-        <!-- Navbar -->
-        <nav class="navbar-youplay navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/logo-light.png" alt="">
-                    </a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class=" dropdown dropdown-hover">
-                            <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%6E%66%6F%40%63%6C%61%73%73%69%63%63%61%6C%65%62%2E%70%72%6F"> Contact <span class="label"></span>
-                                <span class="label">email</span>
-                            </a>
-                        </li>
-                        <li class=" dropdown dropdown-hover">
-                            <a href="#socials"> Platforms <span class="label"></span>
-                                <span class="label">find me</span>
-                            </a>
-                        </li>
-                        <li class=" dropdown dropdown-hover">
-                            <a href="https://kit.co/ClassicCaleb"> Specs <span class="label"></span>
-                                <span class="label">gear</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- /Navbar -->
-        <div class="content-wrap">
-            <!--
-    Banner
-
-    Additional classes:
-        .small
-        .xsmall
-        .big
-        .full
--->
-            <section class="youplay-banner banner-top youplay-banner-parallax">
-                <div class="image" data-speed="0.4">
-                    <img src="assets/images/banner-bg2.jpg" alt="" class="jarallax-img">
-                </div>
-                <div class="info">
-                    <div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <h1 class="h1">Tutorials | Tech | Gaming</h1>
-                                    <p class="lead"> I started making content to geek out with streaming technology and gaming. I continue because of the amazing people that come together, exchange knowledge, and make each other better at both gaming and tech. </p>
-                                    <br>
-                                    <a class="btn btn-info" href="#schedule"><i class="fa fa-calendar"></i>&nbsp; Schedule</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- /Banner -->
-            <!-- Features -->
-            <section class="youplay-features container mt-60 mb-30">
-                <div class="col-sm-4">
-                    <a href="https://twitch.tv/classiccaleb">
-                    <div class="feature angled-bg">
-                        <i class="fab fa-twitch"></i>
-                        </a>
-                        <h3>Twitch</h3>
-                        <div> What a dumpster fire. I'll be streaming on Youtube instead! </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="feature angled-bg">
-                        <a href="https://youtube.com/classiccalebtv">
-                        <i class="fab fa-youtube"></i>
-                        </a>
-                        <h3>Gaming</h3>
-                        <div> Streams and edited gaming content to share the experiences! </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://youtube.com/streamtechtv">
-                    <div class="feature angled-bg">
-                        <i class="fab fa-youtube"></i>
-                        </a>
-                        <h3>Tech</h3>
-                        <div> Straight to the point streaming tech tutorials and information! </div>
-                    </div>
-                </div>
-             </section>
-            <!-- /Features -->
-            <!-- Realistic Battles -->
-            <section class="youplay-banner youplay-banner-parallax big">
-                <div class="image" data-speed="0.4">
-                    <img class="jarallax-img" src="assets/images/dark/game-dark-souls-ii-1920x1080.jpg" alt="">
-                </div>
-                <div class="info">
-                    <div>
-                        <div class="container">
-                            <h2 class="fs-40 mt-45" id="schedule">Stream Schedule</h2>
-                            <br>
-                            <div class="youplay-features">
-                                <div class="col-sm-6">
-                                    <div class="feature angled-bg">
-                                        <a href="https://youtube.com/classiccalebtv/live">
-                                        <i class="fab fa-youtube"></i>
-                                        </a>
-                                        <h3>Daily</h3>
-                                        <h3>Early Mornings CST (UTC-6)</h3>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="feature angled-bg">
-                                        <a href="https://youtube.com/classiccalebtv/live">
-                                        <i class="fab fa-youtube"></i>
-                                        </a>
-                                        <h3>Weekends</h3>
-                                        <h3>Early Mornings CST (UTC-6)</h3>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- /Realistic Battles -->
-            <!-- The True Emotions -->
-            <section class="container mt-120">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-sm-6">
-                        <h2 class="fs-40 mt-0">Have Any Questions?</h2>
-                        <p class="lead">Hop in our Discord for a friendly community to game with or for technical support for streaming! Streamers automatically show at the top of our member list while they are live.</p>
-                        </div>
-                        <div class="col-sm-6">
-                <iframe src="https://discord.com/widget?id=517090361865273386&theme=dark" width="350" height="225" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                            <br><br><br><br>
-                        </div>
-                   </div>
-                </div>
-            </section>
-            <!-- /The True Emotions -->
-            <!-- Footer -->
-            <footer class="youplay-footer youplay-footer-parallax">
-                <div class="image" data-speed="0.4" data-img-position="50% 0%">
-                    <img src="assets/images/footer-bg.jpg" alt="" class="jarallax-img">
-                </div>
-                <div class="wrapper">
-                    <!-- Social Buttons -->
-                    <div class="social">
-                        <div class="container">
-                            <h3 id="socials">Connect socially with <strong>ClassicCaleb</strong></h3>
-                            <div class="social-icons">
-                                <div class="social-icon">
-                                    <a href="https://discord.gg/GMTGJwX">
-                                        <i class="fab fa-discord"></i>
-                                        <span>Join on Discord</span>
-                                    </a>
-                                </div>
-                                <div class="social-icon">
-                                    <a href="https://www.twitch.tv/ClassicCaleb">
-                                        <i class="fab fa-twitch"></i>
-                                        <span>RIP Twitch</span>
-                                    </a>
-                                </div>
-                                <div class="social-icon">
-                                    <a href="https://www.youtube.com/ClassicCalebTV">
-                                        <i class="fab fa-youtube"></i>
-                                        <span>Content on Youtube</span>
-                                    </a>
-                                </div>
-                                <div class="social-icon">
-                                    <a href="https://twitter.com/ClassicCalebTV">
-                                        <i class="fab fa-twitter-square"></i>
-                                        <span>Follow on Twitter</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Social Buttons -->
-                    <!-- Copyright -->
-                    <div class="copyright">
-                        <div class="container">
-                            <p>2023 &copy; <strong>ClassicCaleb</strong>. All rights reserved</p>
-                        </div>
-                    </div>
-                    <!-- /Copyright -->
-                </div>
-            </footer>
-            <!-- /Footer -->
-        </div>
-        <!-- Search Block -->
-        <div class="search-block">
-            <a href="#" class="search-toggle">
-                <i class="fa fa-times"></i>
-            </a>
-            <form action="search.html">
-                <div class="youplay-input">
-                    <input type="text" name="search" placeholder="Search...">
-                </div>
-            </form>
-        </div>
-        <!-- /Search Block -->
-        <!-- START: Scripts -->
-        <!-- Object Fit Polyfill -->
-        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
-        <!-- jQuery -->
-        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-        <!-- Hexagon Progress -->
-        <script src="assets/vendor/HexagonProgress/jquery.hexagonprogress.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- Jarallax -->
-        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-        <!-- Flickity -->
-        <script src="assets/vendor/flickity/dist/flickity.pkgd.min.js"></script>
-        <!-- jQuery Countdown -->
-        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-        <!-- Moment.js -->
-        <script src="assets/vendor/moment/min/moment.min.js"></script>
-        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
-        <!-- Magnific Popup -->
-        <script src="assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-        <!-- Revolution Slider -->
-        <script src="assets/vendor/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script src="assets/vendor/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <!-- ImagesLoaded -->
-        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <!-- Isotope -->
-        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
-        <!-- Bootstrap Validator -->
-        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
-        <!-- Bootstrap Sweetalert -->
-        <script src="assets/vendor/bootstrap-sweetalert/dist/sweetalert.min.js"></script>
-        <!-- Social Likes -->
-        <script src="assets/vendor/social-likes/dist/social-likes.min.js"></script>
-        <!-- Youplay -->
-        <script src="assets/js/youplay.min.js"></script>
-        <script src="assets/js/youplay-init.js"></script>
-        <!-- END: Scripts -->
-    </body>
+	<head>
+		<title>Music | Tech | Gaming</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="color-scheme" content="light only" />
+		<meta name="description" content="Dry humor, sarcasm, and coffee." />
+		<meta property="og:site_name" content="Music | Tech | Gaming" />
+		<meta property="og:title" content="Music | Tech | Gaming" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="Dry humor, sarcasm, and coffee." />
+		<link href="https://fonts.googleapis.com/css2?display=swap&family=Inter:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,700;0,900;1,700;1,900" rel="stylesheet" type="text/css" />
+		<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+		<link rel="stylesheet" href="assets/main.css" />
+		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<div id="container01" class="style3 container default">
+						<div class="wrapper">
+							<div class="inner" data-onvisible-trigger="1">
+								<div id="image04" class="style1 image">
+									<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA1NDAgNTQwIiB3aWR0aD0iNTQwIiBoZWlnaHQ9IjU0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0idHJhbnNwYXJlbnQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image04.png" alt="ClassicCaleb" /></span>
+								</div>
+								<h1 id="text01" class="style2">I make stuff</h1>
+								<p id="text16" class="style4">Music, tech, and gaming creator. Dry humor, sarcasm, and coffee.</p>
+								<ul id="icons05" class="style2 icons">
+									<li>
+										<a class="n01" href="https://mastodon.online/@classiccaleb">
+											<svg aria-labelledby="icon-title"><title id="icon-title">Mastodon</title><use xlink:href="assets/icons.svg#mastodon"></use></svg>
+											<span class="label">Mastodon</span>
+										</a>
+									</li><li>
+										<a class="n02" href="mailto:%69%6E%66%6F%40%63%6C%61%73%73%69%63%63%61%6C%65%62%2E%70%72%6F">
+											<svg aria-labelledby="icon-title"><title id="icon-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+											<span class="label">Email</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<ul id="icons08" class="style1 icons">
+						<li>
+							<a class="n01" onclick="_nextScrollPoint(event);">
+								<svg aria-labelledby="icon-title"><title id="icon-title">Chevron Down</title><use xlink:href="assets/icons.svg#arrow-down-alt-light"></use></svg>
+								<span class="label">Chevron Down</span>
+							</a>
+						</li>
+					</ul>
+					<hr id="divider06" class="style1">
+					<div id="container03" data-scroll-id="start" data-scroll-behavior="center" data-scroll-offset="0" data-scroll-speed="3" data-scroll-invisible="1" class="style2 container columns">
+						<div class="wrapper">
+							<div class="inner" data-onvisible-trigger="1" data-reorder="1,0">
+								<div>
+									<p id="text02" class="style3">StreamTechTV</p>
+									<h2 id="text03" class="style1">Videos that don&#39;t waste your time</h2>
+									<p id="text05" class="style4">Straight to the point streaming tech tutorials and information without all the fluff.</p>
+									<ul id="icons02" class="style2 icons">
+										<li>
+											<a class="n01" href="http://youtube.com/StreamTechTV/">
+												<svg aria-labelledby="icon-title"><title id="icon-title">YouTube</title><use xlink:href="assets/icons.svg#youtube-alt"></use></svg>
+												<span class="label">YouTube</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<div id="embed02">
+										<!-- qweoqwupeoiqwuewqe --><iframe style="aspect-ratio: 16 / 9; height: auto; width: 100%;" src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UUAmwh0HLg-1K3isUA02RYqw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><!-- mnbnbxmbzxmncbzxc -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul id="icons10" class="style1 icons">
+						<li>
+							<a class="n01" onclick="_nextScrollPoint(event);">
+								<svg aria-labelledby="icon-title"><title id="icon-title">Chevron Down</title><use xlink:href="assets/icons.svg#arrow-down-alt-light"></use></svg>
+								<span class="label">Chevron Down</span>
+							</a>
+						</li>
+					</ul>
+					<hr id="divider04" class="style1">
+					<div id="container06" data-scroll-id="content" data-scroll-behavior="center" data-scroll-offset="0" data-scroll-speed="3" data-scroll-invisible="1" class="style2 container columns">
+						<div class="wrapper">
+							<div class="inner" data-onvisible-trigger="1" data-reorder="0,1">
+								<div>
+									<div id="embed04">
+										<!-- qweoqwupeoiqwuewqe --><iframe style="aspect-ratio: 16 / 9; height: auto; width: 100%;" src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UUnB8rIviGnWoMaa2VCitiYw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe><!-- mnbnbxmbzxmncbzxc -->
+									</div>
+								</div>
+								<div>
+									<p id="text13" class="style3">ClassicCalebTV</p>
+									<h2 id="text14" class="style1">Personal content</h2>
+									<p id="text15" class="style4">Music, gaming, hangout streams. Sharing on a more personal note.</p>
+									<ul id="icons03" class="style2 icons">
+										<li>
+											<a class="n01" href="http://youtube.com/ClassicCalebTV">
+												<svg aria-labelledby="icon-title"><title id="icon-title">YouTube</title><use xlink:href="assets/icons.svg#youtube-alt"></use></svg>
+												<span class="label">YouTube</span>
+											</a>
+										</li><li>
+											<a class="n02" href="https://open.spotify.com/artist/7mkRE6cLSAkBidTTf4ORcn">
+												<svg aria-labelledby="icon-title"><title id="icon-title">Spotify</title><use xlink:href="assets/icons.svg#spotify"></use></svg>
+												<span class="label">Spotify</span>
+											</a>
+										</li><li>
+											<a class="n03" href="https://music.youtube.com/channel/UCprjQoLBf0_L99Zmr9GKz3w">
+												<svg aria-labelledby="icon-title"><title id="icon-title">YouTube Music</title><use xlink:href="assets/icons.svg#youtube-music"></use></svg>
+												<span class="label">YouTube Music</span>
+											</a>
+										</li><li>
+											<a class="n04" href="https://music.apple.com/us/artist/classiccaleb/1734475023">
+												<svg aria-labelledby="icon-title"><title id="icon-title">Apple Music</title><use xlink:href="assets/icons.svg#apple-music"></use></svg>
+												<span class="label">Apple Music</span>
+											</a>
+										</li><li>
+											<a class="n05" href="https://www.twitch.tv/classiccaleb">
+												<svg aria-labelledby="icon-title"><title id="icon-title">Twitch</title><use xlink:href="assets/icons.svg#twitch"></use></svg>
+												<span class="label">Twitch</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul id="icons11" class="style1 icons">
+						<li>
+							<a class="n01" onclick="_nextScrollPoint(event);">
+								<svg aria-labelledby="icon-title"><title id="icon-title">Chevron Down</title><use xlink:href="assets/icons.svg#arrow-down-alt-light"></use></svg>
+								<span class="label">Chevron Down</span>
+							</a>
+						</li>
+					</ul>
+					<hr id="divider03" class="style1">
+					<div id="container02" data-scroll-id="community" data-scroll-behavior="center" data-scroll-offset="0" data-scroll-speed="3" data-scroll-invisible="1" class="style3 container columns">
+						<div class="wrapper">
+							<div class="inner" data-onvisible-trigger="1" data-reorder="1,0">
+								<div>
+									<p id="text10" class="style3">Community</p>
+									<h2 id="text11" class="style1">Welcome, friends</h2>
+									<p id="text12" class="style4">Hop into our Discord for a friendly community to game with or for content creation help.</p>
+									<ul id="icons04" class="style2 icons">
+										<li>
+											<a class="n01" href="https://discord.gg/GMTGJwX">
+												<svg aria-labelledby="icon-title"><title id="icon-title">Discord</title><use xlink:href="assets/icons.svg#discord"></use></svg>
+												<span class="label">Discord</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<div id="embed05">
+										<!-- qweoqwupeoiqwuewqe --><iframe style="height: 250px; width: 100%;" src="https://discord.com/widget?id=517090361865273386&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe><!-- mnbnbxmbzxmncbzxc -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul id="icons06" class="style1 icons">
+						<li>
+							<a class="n01" onclick="_nextScrollPoint(event);">
+								<svg aria-labelledby="icon-title"><title id="icon-title">Chevron Down</title><use xlink:href="assets/icons.svg#arrow-down-alt-light"></use></svg>
+								<span class="label">Chevron Down</span>
+							</a>
+						</li>
+					</ul>
+					<hr id="divider05" class="style1">
+					<div id="container05" data-scroll-id="gear" data-scroll-behavior="center" data-scroll-offset="0" data-scroll-speed="3" data-scroll-invisible="1" class="style3 container default">
+						<div class="wrapper">
+							<div class="inner" data-onvisible-trigger="1">
+								<p id="text09" class="style3">My Gear</p>
+								<h2 id="text04" class="style1">What I use</h2>
+								<div id="table01" class="table-wrapper">
+									<div class="table-inner">
+										<table>
+											<thead>
+												<tr>
+													<th>PC</th>
+													<th>Audio</th>
+													<th>Software</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Intel Core i5 13600k</td>
+													<td>NI Kontrol S88 Mk3</td>
+													<td>Cubase 13 Pro (DAW)</td>
+												</tr>
+												<tr>
+													<td>32GB DDR4</td>
+													<td>Roland RPU-3 Pedal Kit</td>
+													<td>Davinci Resolve (Video Editing)</td>
+												</tr>
+												<tr>
+													<td>AMD Radeon 7800XT 16GB</td>
+													<td>Rodecaster Duo</td>
+													<td>OBS Studio (Stream/Record)</td>
+												</tr>
+												<tr>
+													<td>2 x Samsung 2TB NVME</td>
+													<td>Edifier R1280</td>
+													<td>Affinity Photo (Graphics Editing)</td>
+												</tr>
+												<tr>
+													<td>Samsung 43&quot; 4K HDR TV</td>
+													<td>Beyerdynamic DT 990 Pro 250 ohm</td>
+													<td>&nbsp;</td>
+												</tr>
+												<tr>
+													<td>AnkerWork C310 Webcam</td>
+													<td>Rode NT1</td>
+													<td>&nbsp;</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul id="icons07" class="style1 icons">
+						<li>
+							<a class="n01" onclick="_scrollToTop();">
+								<svg aria-labelledby="icon-title"><title id="icon-title">Chevron Up</title><use xlink:href="assets/icons.svg#arrow-up-alt-light"></use></svg>
+								<span class="label">Chevron Up</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+		<!-- qweoqwupeoiqwuewqe --><a rel="me" href="https://mastodon.online/@classiccaleb">.</a><!-- mnbnbxmbzxmncbzxc -->
+	</body>
 </html>
